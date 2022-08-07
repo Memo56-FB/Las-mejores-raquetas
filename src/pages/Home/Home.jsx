@@ -1,31 +1,17 @@
 import './Home.scss'
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 
+import logo from '../../assets/icons/logo.svg'
 export const Home = () => {
   return (
-    <>
-      <header>
-        <nav className='header__navigation'>
-          <ul>
-            <li>
-              <a href="#">Inicio</a>
-            </li>
-            <li>
-              <a href="#">Acerca de nosotros</a>
-            </li>
-            <li>
-              <a href="#">Historia</a>
-            </li>
-            <li>
-              <a href="#">Contacto</a>
-            </li>
-          </ul>
-          <div className=''>
-            <button type='button'>es</button>
-            <button type='button'>en</button>
-          </div>
-        </nav>
-      </header>
-      <button>hola</button>
-    </>
+    <section className='home__hero'>
+      <div className='home__hero__line'></div>
+      <img src={logo} alt="logo de pelota de tennis" className='home__hero__logo' />
+      <h1 className='home__hero__title'>Las mejores raquetas para jugar <span>Tennis</span></h1>
+      <button className='home__hero__button'>
+        Acerca de nosotros
+        <HiOutlineArrowNarrowRight/>
+      </button>
+    </section>
   )
 }

@@ -1,0 +1,24 @@
+.header__navigation {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 17.3rem;
+  padding-right: 9.4rem;
+  padding-top: 4.4rem;
+  width: 100%;
+  color: #fff;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+  }
+}
+
+.header__language-picker {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
