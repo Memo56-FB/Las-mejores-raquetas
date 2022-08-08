@@ -1,5 +1,6 @@
 .home__hero {
   background-image: url('../../../../assets/images/group-mobile.jpg');
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -69,6 +70,7 @@
 @media (min-width: 1024px) {
   .home__hero {
     background-image: url('../../../../assets/images/group-desktop.jpg');
+    background-position: unset;
   }
 }
 

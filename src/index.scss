@@ -9,6 +9,7 @@
 
   --lima: #cbe346;
   --pale-gray: #f3f4f8;
+  font-family: 'HelveticaNeue';
 }
 
 /* 
@@ -49,4 +50,93 @@ button {
 
 ul {
   list-style: none;
+}
+
+// FONTS
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeueMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('HelveticaNeueBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueBlackCond.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueHeavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueRegular.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueThin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
