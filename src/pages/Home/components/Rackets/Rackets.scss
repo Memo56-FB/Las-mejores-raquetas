@@ -1,11 +1,11 @@
 .gallery {
   position: relative;
+  overflow: hidden;
 }
 
 .gallery__item {
   color: #FFF;
   display: flex;
-  align-items: flex-end;
   flex-direction: column;
   aspect-ratio: 16 / 14.6;
 
@@ -22,6 +22,7 @@
 
   &__header,
   &__content {
+    align-self: end;
     width: 65%;
     padding-right: 4rem;
   }
