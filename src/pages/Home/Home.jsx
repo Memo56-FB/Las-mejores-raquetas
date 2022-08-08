@@ -1,3 +1,5 @@
+
+import { DecorativeImage } from './components/DecorativeImage/DecorativeImage'
 import { Hero } from './components/Hero/Hero'
 import { Rackets } from './components/Rackets/Rackets'
 import { Products } from './components/Tennis/Products'
@@ -9,6 +11,7 @@ export const Home = () => {
       <Hero />
       <Products />
       <Rackets />
+      <DecorativeImage />
     </>
   )
 }
