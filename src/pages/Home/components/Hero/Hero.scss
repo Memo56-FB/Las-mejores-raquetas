@@ -1,5 +1,5 @@
 .home__hero {
-  background-image: url('../../../../assets/images/group-desktop.jpg');
+  background-image: url('../../../../assets/images/group-mobile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -46,6 +46,7 @@
 
 @media (min-width: 768px) {
   .home__hero {
+    background-image: url('../../../../assets/images/group-tablet.jpg');
     padding-left: 17.3rem;
     padding-top: 17.5rem;
 
@@ -62,5 +63,17 @@
       font-size: 5.3rem;
       width: 80%;
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  .home__hero {
+    background-image: url('../../../../assets/images/group-desktop.jpg');
+  }
+}
+
+@media (min-width: 1536px) {
+  .home__hero {
+    background-image: url('../../../../assets/images/group-desktop2x.jpg');
   }
 }
