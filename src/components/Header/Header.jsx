@@ -26,7 +26,7 @@ export const Header = () => {
         <button onClick={handleClose} className='header__navigation__close-menu'>
           <AiOutlineClose />
         </button>
-        <img src={logo} alt="" className='header__navigation__logo' />
+        <img src={logo} alt="logo pelota de tennis" className='header__navigation__logo' />
         <ul>
           <li>
             <a href="#">Inicio</a>

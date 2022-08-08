@@ -38,15 +38,15 @@ export const Rackets = () => {
       <div className='rackets'>
         <article className='rackets__item'>
           <span className='rackets__item__number'>1</span>
-          <picture className='rackets__item__img'>
+          <figure className='rackets__item__img'>
             <img src={racket} alt="raqueta de tennis" />
-          </picture>
+          </figure>
         </article>
         <article className='rackets__item'>
           <span className='rackets__item__number'>2</span>
-          <picture className='rackets__item__img'>
+          <figure className='rackets__item__img'>
             <img src={racket} alt="raqueta de tennis" />
-          </picture>
+          </figure>
         </article>
         <article className='rackets__item'>
           <span className='rackets__item__number'>3</span>
