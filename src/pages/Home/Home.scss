@@ -7,8 +7,9 @@
   flex-direction: column;
   gap: 2rem;
   align-items: flex-start;
-  padding-left: 17.3rem;
-  padding-top: 17.5rem;
+  padding-top: 14rem;
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
   color: #FFF;
 
   &__line {
@@ -27,10 +28,9 @@
   }
 
   &__title {
-    font-size: 5.3rem;
+    font-size: 3.3rem;
     font-weight: 400;
     margin-bottom: 2.4rem;
-    width: 60%;
 
     span {
       color: var(--lima);
@@ -47,6 +47,18 @@
     svg {
       font-size: 2.2rem;
       margin-left: 0.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .home__hero {
+    padding-left: 17.3rem;
+    padding-top: 17.5rem;
+
+    &__title {
+      font-size: 5.3rem;
+      width: 80%;
     }
   }
 }
