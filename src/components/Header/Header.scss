@@ -1,3 +1,17 @@
+@media (min-width: 1024px) {
+  nav.bg-black {
+    background-color: #fff;
+    color: #000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 0px -1px 12px 0px #998f8f;
+
+    ul {
+      padding: 0;
+    }
+  }
+}
+
 .header__navigation {
   color: #fff;
   display: flex;
@@ -11,7 +25,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 1;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: translateY(-100%);
 
   ul {
@@ -51,7 +65,6 @@
 }
 
 .header__language-picker {
-  color: #fff;
   display: flex;
   align-items: center;
   gap: 2rem;

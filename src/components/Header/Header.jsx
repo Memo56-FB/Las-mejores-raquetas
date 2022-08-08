@@ -1,6 +1,6 @@
 import './Header.scss'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { AiOutlineClose } from 'react-icons/ai'
 import { GiHamburgerMenu } from 'react-icons/gi'
@@ -9,20 +9,29 @@ import logo from '../../assets/icons/logo.svg'
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
-
+  const [isScrolled, setIsScrolled] = useState(false)
   const handleOpen = () => {
     setIsOpen(true)
   }
   const handleClose = () => {
     setIsOpen(false)
   }
-
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true)
+      } else {
+        setIsScrolled(false)
+      }
+    })
+  }, [])
   return (
     <header>
       <button onClick={handleOpen} className='header__menu-icon'>
         <GiHamburgerMenu />
       </button>
-      <nav className={`header__navigation ${isOpen ? 'open-menu' : ''}`}>
+      <nav className={`header__navigation ${isOpen ? 'open-menu' : ''}${isScrolled ? 'bg-black' : ''}`}
+      >
         <button onClick={handleClose} className='header__navigation__close-menu'>
           <AiOutlineClose />
         </button>
